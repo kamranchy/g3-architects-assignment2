@@ -234,6 +234,59 @@ nav ul li a {
     font-size: 20px;
     color: #727272;
 }
+/* start styles services Css */
+.services{}
+.title{}
+.title h4 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 35px;
+	margin: 20px 0;
+}
+.services-box{
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+}
+.single-service {
+	background-color: #dbc2a5;
+	padding: 10px;
+}
+.single-service:last-child {
+	margin-right: 0;
+}
+.single-service h4 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 25px;
+}
+.single-service img{
+    width:100%;
+}
+.single-service p {
+	color: #fff;
+	font-size: 16px;
+	margin: 10px 0;
+}
+.single-service a{
+	display: inline-block;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #fff;
+	background-color: tomato;
+	padding: 5px 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 17px;
+}
+.service-page .single-service {
+    width: 235px;
+    margin-bottom: 30px;
+}
+.service-page .single-service:nth-child(4), .service-page .single-service:nth-child(8) {
+    margin-right: 0;
+}
 /* start sponsor styles */
 .company-name {}
 .company-title {
