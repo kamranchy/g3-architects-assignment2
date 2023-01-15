@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+/* start header  ,url('../images/developer.png'); */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    overflow: hidden;
+}
+
+/* header and navigation styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+nav li {
+    margin-left: 34px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logo {}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+.menu {}
+
+.banner {
+    overflow: hidden;
+}
+
+.banner img {}
+
+.banner-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: #727272;
+}
+
+.explore-btn{
+    text-align: center;
+}
+.btn-experience {
+    text-align: left;
+    z-index: 1;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+
+.btn-second {
+    font-weight: 700;
+    font-size: 45px;
+    padding: 30px 30px;
+    border: none;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.expo {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.cover img {
+    margin: 50px 100px;
+    border-radius: 8px;
+}
+
+/* start styles team management */
+.team-members {}
+
+.team-container {
+    display: flex;
+    gap: 73px;
+}
+.team-leader-info{
+    display: grid;
+    gap: 24px;
+    margin: 85px 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-staff {
+    border-radius: 8px;
+}
+
+.product-place {
+    margin-top: 250px;
+}
+.team-title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-right: 30px;
+    color: #727272;
+}
+.special {
+    color: #FF900E;
+}
+.team-info {
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* start team enjoyment */
+.team-feature {
+    margin-bottom: 140px;
+}
+.teams-container {
+    display: grid;
+    gap: 54px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.team-content-info {
+    margin-left: 240px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    color: #131313;
+}
+.team-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #727272;
+}
+.team-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+.box-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #131313;
+}
+.box-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.team-leader{
+    margin-right: 40px;
+}
+/* start styles some facts */
+.some-facts {
+    margin-bottom: 150px;
+}
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 150px;
+    margin-bottom: 24px;
+    color: #131313;
+}
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    color: #727272;
+}
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+}
+.brand-name {
+    padding: 30px 25px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.brand-name:hover{
+    transform: translate(50%);
+    background-color: #FF900E;
+    transition: 2s;
+}
+.brand-cost {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.brand-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* start sponsor styles */
+.company-name {}
+.company-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #131313;
+}
+.company-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #727272;
+}
+.company-name-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.company-logo {
+    mix-blend-mode: luminosity;
+}
+/* start footer styles */
+.footer {
+    margin: 130px 240px;
+    padding: 30px 30px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-container {
+  
+    text-align: center;
+}
+.footer-info {
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}
